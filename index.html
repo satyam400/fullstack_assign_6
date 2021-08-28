@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment 6</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .box { 
+            width: 350px;
+            height: 400px;
+           
+            overflow: hidden;
+            border: 2px solid green;
+            margin-right: 30px;
+            text-align: justify;
+            
+            padding: 20px;
+        }
+        #box1{
+            background-color: grey;
+        }
+        #box2{
+            background-color: khaki;
+        }
+        #box3{
+            background-color: lawngreen;
+        }
+        #box4{
+            background-color: lightblue;
+        }
+        #container{
+            display: inline-flex;
+        }
+        .box img{
+            width: 100%;
+            border-radius: 20px;
+            height: 150px;
+        }
+        .box h1{
+            text-align: center;
+            margin: 20px;
+        }
+        .mybutton{
+            margin-top: 20px;
+            display: block;
+            text-decoration: none;
+            color: white;
+            font-family: arial;
+            background-color: red;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+        .mybutton:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="box" id="box1">
+            <div class="image">
+                <img src="./image1.jfif">
+            </div>
+            <h1>this is heading</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti beatae amet suscipit deserunt tenetur eum, itaque facere accusamus, necessitatibus  </p>
+            <div class="image" style="text-align: center;">
+                <a href="./html.html" class="mybutton" >read more</a>
+            </div>
+        </div>
+        <div class="box" id="box2">
+            <div class="image">
+                <img src="./image2.jfif">
+            </div>    
+            <h1>this is heading</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti beatae amet suscipit deserunt tenetur eum, itaque facere accusamus, necessitatibus  </p>
+            <div class="image" style="text-align: center;">
+                <a href="./css.html" class="mybutton">read more
+                    
+                </a>
+
+            </div>
+        </div>
+        <div class="box" id="box3">
+            <div class="image">
+                <img src="./image3.jfif">
+            </div>
+            <h1>this is heading</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti beatae amet suscipit deserunt tenetur eum, itaque facere accusamus, necessitatibus </p>
+            <div class="image" style="text-align: center;">
+                <a href="./query.html" class="mybutton">read more</a>
+            </div>
+        </div>
+        <div class="box" id="box4">
+            <div class="image">
+                <img src="./th.jfif">
+            </div>
+            <h1>this is heading</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti beatae amet suscipit deserunt tenetur eum, itaque facere accusamus, necessitatibus  </p>
+            <div class="image" style="text-align: center;">
+                <a href="./bootstrap.html" class="mybutton">reda more</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
